@@ -9,11 +9,11 @@ lifecycle, and a LeRobot-shaped episode record format.
 
 This is a port of the Rust crate `kami-groot`
 (`kotoba-lang/kami-engine`, ADR-0037) into a dedicated `kotoba.groot`
-capability library per
-[ADR-2607010000](../../../90-docs/adr/2607010000-kotoba-runtime-sdk-cljc-migration.md)
-(the `kami-engine` Rust workspace is being retired in favor of pure
-Clojure "kotoba" authority repos). No network, no I/O in the domain
-namespaces — portable `.cljc` across JVM / ClojureScript / SCI / GraalVM.
+capability library per ADR-2607010000 (the `kami-engine` Rust workspace
+is being retired in favor of pure Clojure "kotoba" authority repos, see
+`com-junkawasaki/90-docs/adr/2607010000-kotoba-runtime-sdk-cljc-migration.md`
+in the superproject). No network, no I/O in the domain namespaces —
+portable `.cljc` across JVM / ClojureScript / SCI / GraalVM.
 
 ## Charter invariant
 
