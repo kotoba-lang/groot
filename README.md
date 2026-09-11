@@ -64,8 +64,8 @@ library builds, tests, and runs with **zero NVIDIA assets**.
 ## Build & test
 
 ```sh
-clojure -M:test
-clojure -M:lint
+kbb -M:test
+kbb -M:lint
 ```
 
 ## Ported
