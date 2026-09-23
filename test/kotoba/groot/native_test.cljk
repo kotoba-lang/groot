@@ -3,7 +3,7 @@
   rescale_maps_unit_interval_to_joint_limits (kami-shugyo/src/policy.rs)
   -- the only kami-shugyo unit test relevant to the affine slice inlined
   into kami-groot's native default backend."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [kotoba.groot.native :as native]))
 
 (deftest linear-policy-zeros-test

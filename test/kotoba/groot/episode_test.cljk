@@ -3,7 +3,7 @@
   episode_record_roundtrips, ported from serde_json roundtrip to plain
   EDN (the codec kami-groot always claimed as 'ours', not a NVIDIA/
   HuggingFace dataset binary)."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [kotoba.groot.episode :as episode]
             #?(:clj  [kotoba.lang.edn :as edn]
                :cljs [cljs.reader :as edn])))

@@ -1,5 +1,5 @@
 (ns kotoba.groot.types-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [kotoba.groot.types :as types]))
 
 (deftest frame-test

@@ -1,5 +1,5 @@
 (ns kotoba.groot.embodiment-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [kotoba.groot.embodiment :as ehead]))
 
 (deftest native-head-zeros-emits-midpoint-normalized-zero-test
