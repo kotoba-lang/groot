@@ -1,5 +1,5 @@
 (ns kotoba.groot.modality-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [kotoba.groot.modality :as modality]))
 
 (defn test-arm []

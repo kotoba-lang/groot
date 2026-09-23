@@ -4,7 +4,7 @@
   surface runs end-to-end on the KAMI-native backend with zero NVIDIA
   assets -- configure an embodiment, build a native policy, and run
   get-action over a VLA observation."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [kotoba.groot.modality :as modality]
             [kotoba.groot.policy :as policy]
             [kotoba.groot.types :as types]))
