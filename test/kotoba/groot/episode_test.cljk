@@ -5,7 +5,7 @@
   HuggingFace dataset binary)."
   (:require [clojure.test :refer [deftest is]]
             [kotoba.groot.episode :as episode]
-            #?(:clj  [clojure.edn :as edn]
+            #?(:clj  [kotoba.lang.edn :as edn]
                :cljs [cljs.reader :as edn])))
 
 (deftest episode-record-roundtrips-test
